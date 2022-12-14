@@ -11,4 +11,9 @@ public class HelloWorld {
     public String sayHello(){
         return "hello world";
     }
+
+    @RequestMapping("sayHello2")
+    public String sayHello2(){
+        return "hello world2";
+    }
 }
